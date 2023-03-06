@@ -9,6 +9,8 @@ TagManager:
   - Ice
   - Enemy
   - IceWall
+  - GranadePowerUp
+  - LaserPowerUp
   layers:
   - Default
   - TransparentFX
