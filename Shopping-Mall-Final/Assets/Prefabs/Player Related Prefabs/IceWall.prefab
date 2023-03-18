@@ -14,12 +14,11 @@ GameObject:
   - component: {fileID: 7263155042687215975}
   - component: {fileID: 6105825650373942645}
   - component: {fileID: 2277045270795367102}
-  - component: {fileID: 8035656611883735064}
   - component: {fileID: 3782596429701862896}
   - component: {fileID: 8323981630702587337}
   m_Layer: 0
   m_Name: IceWall
-  m_TagString: Untagged
+  m_TagString: Icewall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,22 +137,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!208 &8035656611883735064
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7496946188201514036}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.52000004, y: 0.52000004, z: 0.509}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0.509}
-  m_TimeToStationary: 0.5
 --- !u!114 &3782596429701862896
 MonoBehaviour:
   m_ObjectHideFlags: 0

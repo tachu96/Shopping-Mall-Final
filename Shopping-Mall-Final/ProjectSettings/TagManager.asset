@@ -15,7 +15,6 @@ TagManager:
   - Laser
   - Attachment
   - WallBreak
-  - Enemy_Guard
   - Icewall
   layers:
   - Default
