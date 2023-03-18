@@ -11,6 +11,12 @@ TagManager:
   - IceWall
   - GranadePowerUp
   - LaserPowerUp
+  - Laser Pick Up
+  - Laser
+  - Attachment
+  - WallBreak
+  - Enemy_Guard
+  - Icewall
   layers:
   - Default
   - TransparentFX
