@@ -18,6 +18,10 @@ TagManager:
   - Icewall
   - AttachmentG
   - GrenadePickup
+  - Key
+  - Collectible
+  - Sphere
+  - ItemMultiple
   layers:
   - Default
   - TransparentFX
