@@ -16,11 +16,13 @@ TagManager:
   - Attachment
   - WallBreak
   - Icewall
+  - AttachmentG
+  - GrenadePickup
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 
