@@ -614,7 +614,7 @@ PrefabInstance:
     - target: {fileID: 7496946188201514036, guid: 4ed28e8c0ff4a704dbdf674abdce598d,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: IceWall
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8323981630702587337, guid: 4ed28e8c0ff4a704dbdf674abdce598d, type: 3}
