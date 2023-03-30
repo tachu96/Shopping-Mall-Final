@@ -252,12 +252,12 @@ PrefabInstance:
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.006793313
+      value: -0.0067932736
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0049277856
+      value: 0.0049277567
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
@@ -287,12 +287,12 @@ PrefabInstance:
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.006793313
+      value: -0.0067932736
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0049277856
+      value: 0.0049277567
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4967594688883930405, guid: 8511616ccec1ba944abc07ea417760e9, type: 3}
@@ -1392,6 +1392,11 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerCam","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"InitatialDamage","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785224468684305252, guid: 44fe9a19b23895f4e8f736ac69ad5972,
+        type: 3}
+      propertyPath: m_Name
+      value: Embers
       objectReference: {fileID: 0}
     - target: {fileID: 3785224468684305252, guid: 44fe9a19b23895f4e8f736ac69ad5972,
         type: 3}
