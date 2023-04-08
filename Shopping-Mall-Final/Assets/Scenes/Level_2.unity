@@ -1089,6 +1089,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Walls01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4397830537001283774, guid: b633f78aaf1c13647afd4345e69628f5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b633f78aaf1c13647afd4345e69628f5, type: 3}
 --- !u!1001 &325872794
@@ -3962,6 +3967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Walls00
       objectReference: {fileID: 0}
+    - target: {fileID: 5244648750674722530, guid: 4903530a297d261479ea3e4c412e60ba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7393419905618803420, guid: 4903530a297d261479ea3e4c412e60ba,
         type: 3}
       propertyPath: m_RootOrder
@@ -6014,6 +6024,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Walls01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673440919281196762, guid: 787f6e7dc5a08c645851175d14f5e3ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8792968752317736505, guid: 787f6e7dc5a08c645851175d14f5e3ce,
         type: 3}
@@ -10473,6 +10488,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.0109
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089408364877565064, guid: 9b555ea7fc8dff74b853ebd94011523c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b555ea7fc8dff74b853ebd94011523c, type: 3}
