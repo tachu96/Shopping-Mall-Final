@@ -533,11 +533,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.6801233, y: 1, z: 3.3194423}
   m_Center: {x: 1.3935575, y: 0, z: 1.1597226}
+--- !u!1 &131601673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8406102372515346632, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
+    type: 3}
+  m_PrefabInstance: {fileID: 769451378}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &132288365 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1720174995, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
     type: 3}
   m_PrefabInstance: {fileID: 1554729834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &133088829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8406102372515346632, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1232829092}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &138278605 stripped
 GameObject:
@@ -2895,6 +2907,12 @@ Transform:
   m_Father: {fileID: 57718070}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &547207010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8406102372515346632, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1898832062}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &562857933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4447,12 +4465,13 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectionTrigger","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ATTACK","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Model","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
@@ -4489,6 +4508,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 1038296303}
+    - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 131601673}
     - target: {fileID: 6823998767586278295, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
       propertyPath: m_RootOrder
@@ -6913,12 +6937,13 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectionTrigger","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ATTACK","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Model","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
@@ -6955,6 +6980,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 246722909}
+    - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 133088829}
     - target: {fileID: 6823998767586278295, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
       propertyPath: m_RootOrder
@@ -7608,6 +7638,12 @@ Transform:
   m_Father: {fileID: 584592917}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1329587239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8406102372515346632, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1554729834}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1330570492
 GameObject:
   m_ObjectHideFlags: 0
@@ -8373,7 +8409,7 @@ PrefabInstance:
     - target: {fileID: 117717675924753334, guid: 997c78f762db1d443802cc80b5a921a6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 117717675924753337, guid: 997c78f762db1d443802cc80b5a921a6,
         type: 3}
@@ -8493,12 +8529,13 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectionTrigger","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ATTACK","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Model","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
@@ -8535,6 +8572,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 904132165}
+    - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 1329587239}
     - target: {fileID: 6823998767586278295, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
       propertyPath: m_RootOrder
@@ -10922,12 +10964,13 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DetectionTrigger","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ATTACK","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Model","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
@@ -10964,6 +11007,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 486654798}
+    - target: {fileID: 6823998767586278288, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 547207010}
     - target: {fileID: 6823998767586278295, guid: 25a4eef4b20c4b745902a3c27aa9f35d,
         type: 3}
       propertyPath: m_RootOrder

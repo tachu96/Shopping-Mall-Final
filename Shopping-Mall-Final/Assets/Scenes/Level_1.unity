@@ -703,6 +703,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoadAnimation
       objectReference: {fileID: 0}
+    - target: {fileID: 117717675924753334, guid: 997c78f762db1d443802cc80b5a921a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 117717675924753337, guid: 997c78f762db1d443802cc80b5a921a6,
         type: 3}
       propertyPath: m_RootOrder
@@ -1857,24 +1862,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUD
       objectReference: {fileID: 0}
-    - target: {fileID: 4450088263331728059, guid: 5d12883153894884281b508b0c9bccf3,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 893d6f16579f14842b5cc62c31541db7,
-        type: 3}
-    - target: {fileID: 7947478778056639914, guid: 5d12883153894884281b508b0c9bccf3,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: d9a39d169dca5db4391823b93835a329,
-        type: 3}
-    - target: {fileID: 8761579822248243504, guid: 5d12883153894884281b508b0c9bccf3,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 2881309e1a2ac3a4a874ba65c0c5d55b,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d12883153894884281b508b0c9bccf3, type: 3}
 --- !u!1 &1516847273 stripped
