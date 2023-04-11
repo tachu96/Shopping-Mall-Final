@@ -237,11 +237,23 @@ Transform:
   m_Father: {fileID: 1857600298}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1459041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4374598715229775675, guid: 5d12883153894884281b508b0c9bccf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 325872794}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &23928032 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 28d955ac916d828489416b23db57ba9d,
     type: 3}
   m_PrefabInstance: {fileID: 1362041485}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &32233109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3982914286877242816, guid: 12a10a7ad39d5f84cbdd9be89beda6f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 938800119}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &39770735 stripped
 GameObject:
@@ -1313,6 +1325,10 @@ PrefabInstance:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2084305086, guid: 5d12883153894884281b508b0c9bccf3, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 32233109}
     - target: {fileID: 2141988140, guid: 5d12883153894884281b508b0c9bccf3, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
@@ -1446,6 +1462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7039457756911540145, guid: 5d12883153894884281b508b0c9bccf3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d12883153894884281b508b0c9bccf3, type: 3}
@@ -2202,6 +2223,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5052823120974759605, guid: 2d693f6f042062546a917a51c1fa6c06,
     type: 3}
   m_PrefabInstance: {fileID: 422723122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &422889357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5340791778779460089, guid: 5d12883153894884281b508b0c9bccf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 325872794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &428549340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7039457756911540145, guid: 5d12883153894884281b508b0c9bccf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 325872794}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &448368920
 PrefabInstance:
@@ -12104,12 +12137,15 @@ PrefabInstance:
         Attachment","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RemmainingAmmo","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AmmoCharge","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ManaBar","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GranadeImage","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LaserImage","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
@@ -12146,6 +12182,21 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[7]
       value: 
       objectReference: {fileID: 145422930}
+    - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[8]
+      value: 
+      objectReference: {fileID: 1459041}
+    - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[9]
+      value: 
+      objectReference: {fileID: 428549340}
+    - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[10]
+      value: 
+      objectReference: {fileID: 422889357}
     - target: {fileID: 2240738426948724908, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
       propertyPath: m_Name
