@@ -252,12 +252,12 @@ PrefabInstance:
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0067932545
+      value: -0.0067933337
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0049277437
+      value: 0.004927801
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
@@ -287,12 +287,12 @@ PrefabInstance:
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0067932545
+      value: -0.0067933337
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0049277437
+      value: 0.004927801
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4967594688883930405, guid: 8511616ccec1ba944abc07ea417760e9, type: 3}
@@ -421,7 +421,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1628101347}
-  m_RootOrder: 36
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &432844647
 MeshRenderer:
@@ -1366,12 +1366,12 @@ PrefabInstance:
     - target: {fileID: 4044122820279288268, guid: 44fe9a19b23895f4e8f736ac69ad5972,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.98
+      value: -19.94
       objectReference: {fileID: 0}
     - target: {fileID: 4044122820279288268, guid: 44fe9a19b23895f4e8f736ac69ad5972,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.32
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 4044122820324883553, guid: 44fe9a19b23895f4e8f736ac69ad5972,
         type: 3}
@@ -2075,7 +2075,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1628101347}
-  m_RootOrder: 38
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -9.588}
 --- !u!64 &1624543107
 MeshCollider:
