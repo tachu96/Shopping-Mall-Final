@@ -8717,6 +8717,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1740579899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8811363229349627935, guid: a89c78d89e04a2b42a141d21412faed5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2144706192}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1741286856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8792968752317736505, guid: 787f6e7dc5a08c645851175d14f5e3ce,
@@ -10846,12 +10852,13 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ManaBar","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GranadeImage","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LaserImage","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerModel","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
@@ -10903,6 +10910,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[10]
       value: 
       objectReference: {fileID: 422889357}
+    - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[11]
+      value: 
+      objectReference: {fileID: 1740579899}
     - target: {fileID: 2240738426948724908, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
       propertyPath: m_Name
