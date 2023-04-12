@@ -5709,6 +5709,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1266447118}
     m_Modifications:
+    - target: {fileID: 2181879954823367209, guid: fd118c41c21f6ae48a8c970f905ccb5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1be173d9e7885d748bbeae15793e4b04, type: 2}
     - target: {fileID: 6823998767586278288, guid: fd118c41c21f6ae48a8c970f905ccb5a,
         type: 3}
       propertyPath: _data._json
@@ -5834,6 +5839,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Guard (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7886812186926027633, guid: fd118c41c21f6ae48a8c970f905ccb5a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1be173d9e7885d748bbeae15793e4b04, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd118c41c21f6ae48a8c970f905ccb5a, type: 3}
 --- !u!4 &735267275 stripped
