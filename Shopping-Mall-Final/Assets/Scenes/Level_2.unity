@@ -4075,6 +4075,12 @@ Transform:
   m_Father: {fileID: 1156060180}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &481090833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4557887203442488582, guid: fe1a8cbd68fb63a4e8fb100f359369a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1657447746}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &482037834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4808,12 +4814,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcce122c8e6287f4197e5be23d1be6e9, type: 3}
---- !u!1 &613811932 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8736397638767757003, guid: bcce122c8e6287f4197e5be23d1be6e9,
-    type: 3}
-  m_PrefabInstance: {fileID: 613811931}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &613811933 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8736397638767757000, guid: bcce122c8e6287f4197e5be23d1be6e9,
@@ -13458,7 +13458,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 1714484136}
+      objectReference: {fileID: 481090833}
     - target: {fileID: 4557887203442488576, guid: fe1a8cbd68fb63a4e8fb100f359369a6,
         type: 3}
       propertyPath: m_Enabled
@@ -13968,7 +13968,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 613811932}
+      objectReference: {fileID: 2012489010}
     - target: {fileID: 4557887203442488578, guid: fe1a8cbd68fb63a4e8fb100f359369a6,
         type: 3}
       propertyPath: m_RootOrder
@@ -14464,12 +14464,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcce122c8e6287f4197e5be23d1be6e9, type: 3}
---- !u!1 &1714484136 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8736397638767757003, guid: bcce122c8e6287f4197e5be23d1be6e9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1714484135}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1714484137 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8736397638767757000, guid: bcce122c8e6287f4197e5be23d1be6e9,
@@ -17300,6 +17294,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 769451378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2012489010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4557887203442488582, guid: fe1a8cbd68fb63a4e8fb100f359369a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1684897807}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &2014112224
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18234,7 +18234,7 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GranadeImage","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LaserImage","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerModel","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Screenflash","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ScreenFlash","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
