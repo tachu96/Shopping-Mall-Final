@@ -10853,12 +10853,13 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GranadeImage","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LaserImage","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerModel","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Screenflash","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
@@ -10915,6 +10916,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[11]
       value: 
       objectReference: {fileID: 1740579899}
+    - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[12]
+      value: 
+      objectReference: {fileID: 421400976}
     - target: {fileID: 2240738426948724908, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
       propertyPath: m_Name

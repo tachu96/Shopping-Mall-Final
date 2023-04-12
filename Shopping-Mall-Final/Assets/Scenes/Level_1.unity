@@ -233,7 +233,7 @@ PrefabInstance:
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.26
+      value: -21.86
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
@@ -243,7 +243,7 @@ PrefabInstance:
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.25
+      value: 18.45
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
@@ -273,7 +273,7 @@ PrefabInstance:
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.26
+      value: -21.86
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
@@ -283,7 +283,7 @@ PrefabInstance:
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.25
+      value: 18.45
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
@@ -1560,6 +1560,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4044122820996072206, guid: 44fe9a19b23895f4e8f736ac69ad5972,
     type: 3}
   m_PrefabInstance: {fileID: 1296675560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1289142561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 59001228, guid: 5d12883153894884281b508b0c9bccf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1359006306}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1296675560
 PrefabInstance:
@@ -3328,12 +3334,13 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GranadeImage","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Collected","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PlayerModel","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ScreenFlash","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 8666910137781097956, guid: cf85154c879cbd24889ac1625a29ca55,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8666910137781097956, guid: cf85154c879cbd24889ac1625a29ca55,
         type: 3}
@@ -3375,6 +3382,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[7]
       value: 
       objectReference: {fileID: 543243465}
+    - target: {fileID: 8666910137781097956, guid: cf85154c879cbd24889ac1625a29ca55,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[8]
+      value: 
+      objectReference: {fileID: 1289142561}
     - target: {fileID: 8666910137781097958, guid: cf85154c879cbd24889ac1625a29ca55,
         type: 3}
       propertyPath: m_RootOrder
@@ -3383,7 +3395,7 @@ PrefabInstance:
     - target: {fileID: 8666910137781097958, guid: cf85154c879cbd24889ac1625a29ca55,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.3
+      value: -21.9
       objectReference: {fileID: 0}
     - target: {fileID: 8666910137781097958, guid: cf85154c879cbd24889ac1625a29ca55,
         type: 3}
@@ -3393,7 +3405,7 @@ PrefabInstance:
     - target: {fileID: 8666910137781097958, guid: cf85154c879cbd24889ac1625a29ca55,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.8
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8666910137781097958, guid: cf85154c879cbd24889ac1625a29ca55,
         type: 3}
