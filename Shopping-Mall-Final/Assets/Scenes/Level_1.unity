@@ -258,12 +258,12 @@ PrefabInstance:
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.006044995
+      value: -0.006044869
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0049959817
+      value: 0.0049958774
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689360024977, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
@@ -298,12 +298,12 @@ PrefabInstance:
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.006044995
+      value: -0.006044869
       objectReference: {fileID: 0}
     - target: {fileID: 4967594689534373886, guid: 8511616ccec1ba944abc07ea417760e9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0049959817
+      value: 0.0049958774
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4967594688883930405, guid: 8511616ccec1ba944abc07ea417760e9, type: 3}
@@ -1824,6 +1824,11 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayOnce","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 4044122819529000957, guid: 44fe9a19b23895f4e8f736ac69ad5972,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 1296675561}
     - target: {fileID: 4044122819831157694, guid: 44fe9a19b23895f4e8f736ac69ad5972,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2128,6 +2133,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44fe9a19b23895f4e8f736ac69ad5972, type: 3}
+--- !u!1 &1296675561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2821537172119092437, guid: 44fe9a19b23895f4e8f736ac69ad5972,
+    type: 3}
+  m_PrefabInstance: {fileID: 1296675560}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1327767040
 GameObject:
   m_ObjectHideFlags: 0
