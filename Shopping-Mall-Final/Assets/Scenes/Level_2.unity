@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.05016425, g: 0.052407153, b: 0.04506957, a: 1}
+  m_IndirectSpecularColor: {r: 0.05016425, g: 0.05240722, b: 0.04506956, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15037,6 +15037,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8382074823210333031, guid: 88671393da1bffc48a67ee6fdffcd679,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8863914402519670727, guid: 88671393da1bffc48a67ee6fdffcd679,
         type: 3}
       propertyPath: m_RootOrder
@@ -15092,7 +15097,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 641157332372414829, guid: 88671393da1bffc48a67ee6fdffcd679, type: 3}
+    - {fileID: 8382074823210333031, guid: 88671393da1bffc48a67ee6fdffcd679, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 88671393da1bffc48a67ee6fdffcd679, type: 3}
 --- !u!4 &636872341 stripped
 Transform:
@@ -15854,12 +15861,13 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LaserImage","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ManaBar","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerModel","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"lvl2_rrom1_key","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
@@ -15911,6 +15919,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[10]
       value: 
       objectReference: {fileID: 975308473}
+    - target: {fileID: 2240738426948724907, guid: a89c78d89e04a2b42a141d21412faed5,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[11]
+      value: 
+      objectReference: {fileID: 1083990665}
     - target: {fileID: 2240738426948724908, guid: a89c78d89e04a2b42a141d21412faed5,
         type: 3}
       propertyPath: m_Name
@@ -18966,12 +18979,11 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"isPauseMenuActive","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Camera","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ScreenFlash","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ScreenFlash","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 563267327}
-    - {fileID: 0}
     - {fileID: 1398747820}
 --- !u!4 &776133413
 Transform:
@@ -25201,6 +25213,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5052823120974759605, guid: 2d693f6f042062546a917a51c1fa6c06,
     type: 3}
   m_PrefabInstance: {fileID: 445030321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1083990665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7717231943895417211, guid: e4c557f4b12680f4bb9f9ce6aec25242,
+    type: 3}
+  m_PrefabInstance: {fileID: 1478926800}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1085668313 stripped
 Transform:
@@ -33979,7 +33997,7 @@ PrefabInstance:
     - target: {fileID: 7717231943895417153, guid: e4c557f4b12680f4bb9f9ce6aec25242,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.828974
+      value: -16.47
       objectReference: {fileID: 0}
     - target: {fileID: 7717231943895417153, guid: e4c557f4b12680f4bb9f9ce6aec25242,
         type: 3}
